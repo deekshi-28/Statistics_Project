@@ -65,6 +65,8 @@ The project uses the **insurance.csv** dataset containing demographic and medica
 
 ## 3. Random Variable
 
+A **Random Variable** is a variable whose value depends on the outcome of a random experiment. It can be classified as either **Discrete** (countable values) or **Continuous** (measurable values).
+
 - Discrete Random Variable
 - Continuous Random Variable
 - Dataset Examples
@@ -73,23 +75,30 @@ The project uses the **insurance.csv** dataset containing demographic and medica
 
 ## 4. Probability Distribution
 
-- Distribution of Numerical Variables
+A **Probability Distribution** describes how the values of a random variable are distributed. It shows the likelihood of different outcomes and helps understand the behavior of data.
+
 - Mean
 - Median
 - Standard Deviation
 - Minimum and Maximum Values
+- Distribution Analysis
 
 ---
 
 ## 5. Normal Distribution
 
-- Mean vs Median Comparison
+A **Normal Distribution** is a continuous probability distribution where data is symmetrically distributed around the mean, forming a bell-shaped curve. Many real-world measurements approximately follow this distribution.
+
+- Mean and Median Comparison
 - Standard Deviation
-- Approximate Normality Check
+- Normality Check
+- Statistical Interpretation
 
 ---
 
 ## 6. Uniform Distribution
+
+A **Uniform Distribution** is a probability distribution in which every possible outcome has an equal probability of occurring. It is used to determine whether data values are evenly distributed.
 
 - Frequency Distribution
 - Uniformity Check
@@ -99,49 +108,65 @@ The project uses the **insurance.csv** dataset containing demographic and medica
 
 ## 7. Binomial Distribution
 
+A **Binomial Distribution** models the probability of obtaining a fixed number of successes in a fixed number of independent trials, where each trial has only two possible outcomes.
+
 - Success and Failure Events
 - Smoker Probability
 - Non-Smoker Probability
+- Statistical Interpretation
 
 ---
 
 ## 8. Poisson Distribution
 
-- Count Data Analysis
+A **Poisson Distribution** models the probability of a given number of events occurring within a fixed interval of time or space. It is commonly used for count-based data.
+
 - Mean and Variance Comparison
-- Children Variable Analysis
+- Children Count Analysis
+- Poisson Distribution Check
 
 ---
 
 ## 9. Skewness
 
+**Skewness** measures the asymmetry of a probability distribution. It indicates whether the data is skewed to the left, skewed to the right, or approximately symmetric.
+
 - Positive Skewness
 - Negative Skewness
 - Symmetric Distribution
+- Distribution Interpretation
 
 ---
 
 ## 10. Kurtosis
 
+**Kurtosis** measures the tailedness of a probability distribution. It helps identify whether a distribution has heavier or lighter tails compared to a normal distribution.
+
 - Leptokurtic Distribution
 - Platykurtic Distribution
 - Mesokurtic Distribution
+- Statistical Interpretation
 
 ---
 
 ## 11. Z-Score
 
+A **Z-Score** measures how many standard deviations a data point is from the mean. It is commonly used to compare observations and detect outliers.
+
 - Standard Score Calculation
 - Outlier Detection
-- First 10 Z-Score Values
+- Z-Score Interpretation
 
 ---
 
 ## 12. Standardization
 
-- Feature Scaling
-- Mean Transformation
-- Standard Deviation Transformation
+**Standardization** is the process of transforming numerical variables so that they have a mean of **0** and a standard deviation of **1**. This allows variables with different scales to be compared fairly.
+
+- Z-Score Transformation
+- Mean Standardization
+- Standard Deviation Standardization
+- Standardized Dataset Analysis
 
 ---
 

@@ -60,52 +60,67 @@ The project uses the **train.csv** dataset containing information about resident
 
 ## 3. Population
 
-- Definition of Population
-- Population Size
-- Population Identification
+A **Population** is the complete collection of individuals, objects, or observations under study. It represents the entire dataset from which statistical conclusions are drawn.
+
+- Total Number of Houses
+- Population Size Identification
+- Population Analysis
 
 ---
 
 ## 4. Sample
 
-- Definition of Sample
+A **Sample** is a subset of the population selected for statistical analysis. It is used to make inferences about the entire population while reducing time and computational effort.
+
 - Sample Selection
 - Sample Size
+- Sample Records
 
 ---
 
 ## 5. Random Sampling
 
-- Simple Random Sampling
+**Random Sampling** is a sampling technique in which every member of the population has an equal chance of being selected. It minimizes selection bias and provides representative samples.
+
+- Random Sample Selection
 - Equal Selection Probability
-- Random Sample Generation
+- Python Implementation
 
 ---
 
 ## 6. Systematic Sampling
 
-- Sampling Interval
-- Every k-th Observation Selection
+**Systematic Sampling** selects observations at regular intervals after choosing a random starting point. It is simple to implement and widely used in surveys.
+
+- Sampling Interval (k)
+- Every k-th Observation
+- Python Implementation
 
 ---
 
 ## 7. Stratified Sampling
 
+**Stratified Sampling** divides the population into homogeneous groups called strata and selects samples from each group. This ensures that every subgroup is properly represented.
+
 - Population Stratification
-- Sampling from Individual Strata
-- OverallQual Based Stratification
+- Sampling from Each Stratum
+- Overall Quality Based Sampling
 
 ---
 
 ## 8. Cluster Sampling
 
-- Cluster Identification
-- Neighborhood Based Clustering
+**Cluster Sampling** divides the population into clusters and randomly selects one or more clusters for analysis. It is useful when the population is geographically or naturally grouped.
+
+- Neighborhood-based Clusters
 - Random Cluster Selection
+- Cluster Analysis
 
 ---
 
 ## 9. Sampling Error
+
+**Sampling Error** is the difference between a population parameter and the corresponding sample statistic. It occurs because only a subset of the population is analyzed.
 
 - Population Mean
 - Sample Mean
@@ -115,17 +130,22 @@ The project uses the **train.csv** dataset containing information about resident
 
 ## 10. Sampling Distribution
 
+A **Sampling Distribution** is the probability distribution of a sample statistic obtained from multiple random samples of the same size. It helps estimate the variability of sample statistics.
+
 - Multiple Random Samples
 - Distribution of Sample Means
 - Average Sample Mean
 
 ---
 
-## 11. Central Limit Theorem
+## 11. Central Limit Theorem (CLT)
 
-- Comparison of Population Mean
+The **Central Limit Theorem (CLT)** states that, regardless of the population distribution, the sampling distribution of the sample mean approaches a normal distribution as the sample size becomes sufficiently large.
+
+- Population Mean Comparison
 - Average Sample Mean
-- Practical Demonstration of CLT
+- CLT Demonstration
+- Statistical Interpretation
 
 ---
 

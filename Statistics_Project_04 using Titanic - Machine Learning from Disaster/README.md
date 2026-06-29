@@ -64,80 +64,121 @@ The project uses the **Titanic_train.csv** dataset containing passenger informat
 
 ---
 
-## 3. Null Hypothesis (H₀)
+## 3. Statistical Hypothesis
 
-- Definition
-- Examples
-- Statistical Assumptions
+A **Statistical Hypothesis** is an assumption or claim about a population parameter that can be tested using sample data. It forms the foundation of statistical inference and decision-making.
+
+- Research Question
+- Hypothesis Formulation
+- Statistical Decision Making
 
 ---
 
-## 4. Alternative Hypothesis (H₁)
+## 4. Null Hypothesis (H₀)
 
-- Definition
-- Examples
+The **Null Hypothesis (H₀)** states that there is **no significant difference, effect, or relationship** between variables. It is the default assumption that is tested using statistical methods.
+
+- No Significant Difference
+- Default Assumption
+- Statistical Testing
+
+---
+
+## 5. Alternative Hypothesis (H₁)
+
+The **Alternative Hypothesis (H₁)** states that there **is a significant difference, effect, or relationship** between variables. It is accepted when sufficient statistical evidence exists against the null hypothesis.
+
+- Significant Difference Exists
 - Research Hypothesis
+- Statistical Interpretation
 
 ---
 
-## 5. Significance Level (α)
+## 6. Significance Level (α)
 
-- Alpha Value
+The **Significance Level (α)** is the probability of rejecting a true Null Hypothesis (Type I Error). It is used as the threshold for making statistical decisions, with **0.05 (5%)** being the most commonly used value.
+
+- Alpha Value (0.05)
 - Decision Rule
-- Type I Error Concept
+- Type I Error
 
 ---
 
-## 6. One Sample t-Test
+## 7. One Sample t-Test
 
-- Compare Sample Mean with Population Mean
+A **One Sample t-Test** compares the mean of a sample with a known or hypothesized population mean to determine whether the difference is statistically significant.
+
+- Sample Mean Comparison
 - Test Statistic
 - P-value
 - Statistical Decision
 
 ---
 
-## 7. Independent Two Sample t-Test
+## 8. Independent t-Test
 
-- Compare Male and Female Passenger Ages
+An **Independent t-Test** compares the means of two independent groups to determine whether there is a statistically significant difference between them.
+
+- Two Independent Groups
+- Mean Comparison
 - Test Statistic
 - P-value
-- Statistical Decision
+- Statistical Interpretation
 
 ---
 
-## 8. Paired t-Test
+## 9. Paired t-Test
 
-- Educational Demonstration
+A **Paired t-Test** compares two related sets of observations, such as measurements taken before and after an event, to determine whether their mean difference is statistically significant.
+
 - Before and After Comparison
+- Paired Observations
+- Mean Difference Analysis
 - Statistical Decision
 
 ---
 
-## 9. Chi-Square Test of Independence
+## 10. Chi-Square Test
+
+The **Chi-Square Test of Independence** determines whether there is a significant association between two categorical variables by comparing observed and expected frequencies.
 
 - Contingency Table
 - Chi-Square Statistic
 - Degrees of Freedom
-- P-value
-- Association between Gender and Survival
+- Association Between Variables
 
 ---
 
-## 10. One-Way ANOVA
+## 11. One-Way ANOVA
 
-- Compare Mean Age across Passenger Classes
+**One-Way Analysis of Variance (ANOVA)** compares the means of three or more independent groups to determine whether at least one group mean is significantly different from the others.
+
+- Multiple Group Comparison
 - F-Statistic
 - P-value
-- Statistical Decision
+- Statistical Interpretation
 
 ---
 
-## 11. Confidence Interval
+## 12. Confidence Interval
+
+A **Confidence Interval (CI)** provides a range of values within which the true population parameter is expected to lie with a specified level of confidence, typically **95%**.
 
 - Sample Mean
-- Standard Error
+- Margin of Error
 - 95% Confidence Interval
+- Population Parameter Estimation
+
+---
+
+## 13. P-value Interpretation
+
+The **P-value** measures the strength of evidence against the Null Hypothesis. It helps determine whether the observed results are statistically significant.
+
+- P-value < 0.05 → Reject H₀
+- P-value ≥ 0.05 → Fail to Reject H₀
+- Statistical Decision
+- Result Interpretation
 
 ---
 

@@ -54,32 +54,70 @@ The dataset contains information about customers visiting a shopping mall.
 - Unique Values
 - Category Verification
 
-### 3. Permutation
+## 3. Permutation
+
+Permutation is the arrangement of objects where **the order of selection matters**. It is commonly used to determine the number of possible arrangements of a set of objects.
+
 - nPr Formula
 - Customer Arrangement Problems
 - Python Implementation
 
-### 4. Combination
+---
+
+## 4. Combination
+
+Combination is the selection of objects where **the order of selection does not matter**. It is used to calculate the number of possible groups or selections.
+
 - nCr Formula
 - Customer Selection Problems
 - Python Implementation
 
-### 5. Basic Probability
+---
+
+## 5. Basic Probability
+
+Basic Probability measures the likelihood of an event occurring. It ranges from **0 (impossible event)** to **1 (certain event)**.
+
+This project calculates the probability of selecting customers based on different characteristics.
+
 - Probability of Selecting Male Customer
 - Probability of Selecting Female Customer
 - Probability of Selecting Young Customers
 - Probability of High Income Customers
 - Probability of High Spending Customers
 
-### 6. Conditional Probability
+---
+
+## 6. Conditional Probability
+
+Conditional Probability is the probability of an event occurring **given that another event has already occurred**.
+
+It is represented as:
+
+**P(A | B)**
+
+where the probability of **A** depends on the occurrence of **B**.
+
+Examples implemented in this project include:
+
 - P(Spending > 70 | Female)
 - P(Age < 30 | Male)
 - P(Income > 70 | Spending > 70)
 - Multiple Conditional Probability Examples
 
-### 7. Independent & Dependent Events
+---
+
+## 7. Independent & Dependent Events
+
+Independent Events are events where the occurrence of one event **does not affect** the probability of another event.
+
+Dependent Events are events where the occurrence of one event **changes** the probability of another event.
+
+This project verifies independence by comparing:
+
+**P(A ∩ B)** and **P(A) × P(B)**
+
 - Event Definition
-- Intersection Probability
 - Independence Verification
 - Statistical Interpretation
 
