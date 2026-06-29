@@ -153,6 +153,7 @@ After completing this project, you will be able to:
 ---
 
 ## Sample Output
+```
 
 Probability Analysis using Mall Customer Segmentation Data
 
@@ -325,6 +326,7 @@ PROJECT COMPLETED SUCCESSFULLY
 Statistics Project 01
 Probability Analysis using Mall Customer Segmentation Data
 ==============================================
+```
 
 ---
 
