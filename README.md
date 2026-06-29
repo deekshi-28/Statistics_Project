@@ -67,8 +67,8 @@ Statistics_Project
 
 | Project | Statistical Topic | Dataset |
 |----------|-------------------|---------|
-| Project 1 | Probability Analysis | Mall Customer Segmentation |
-| Project 2 | Population & Sampling | House Prices |
+| Project 1 | Probability Analysis | Mall Customer Segmentation Data |
+| Project 2 | Population & Sampling | House Prices - Advanced Regression Techniques |
 | Project 3 | Probability Distribution | Medical Cost Personal Dataset |
 | Project 4 | Hypothesis Testing | Titanic - Machine Learning from Disaster |
 
